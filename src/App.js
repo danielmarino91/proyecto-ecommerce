@@ -1,8 +1,10 @@
+import Header from './Header.js'
+
 function App() {
   return (
-    <div>
-      <p>Prueba</p>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
 
