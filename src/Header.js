@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <header>
+        <header className="borde">
             <h1>Proyecto Ecommerce</h1>
             <ul>
                 <li>Inicio</li>

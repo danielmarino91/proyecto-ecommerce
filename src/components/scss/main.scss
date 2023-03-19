@@ -1,14 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-family: Roboto, sans-serif;
-    background-color: black;
-    color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Roboto, sans-serif;
+  background-color: black;
+  color: white;
 }
 
-@import 'header.scss'
+.card {
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid rgb(0, 128, 255);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  max-width: 20rem;
+  background-color: rgb(61, 62, 63);
+  border-radius: 3%;
+
+  h3 {
+    background-color: rgb(61, 62, 63);
+  }
+  .img {
+    display: flex;
+    width: 96%;
+    border-bottom: 3px solid rgb(0, 128, 255);
+    margin-top: 6px;
+  }
+}
+
+@import "header.scss";
